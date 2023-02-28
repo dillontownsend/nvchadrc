@@ -14,7 +14,7 @@ M.override = {
     fg = '#b7b7b7'
   },
   CursorLineNr = {
-    fg = '#B4FF39'
+    fg = '#52AD70'
   }
 }
 
