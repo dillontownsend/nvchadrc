@@ -8,10 +8,14 @@ local M = {}
 M.override = {
   CursorLine = {
     bg = "black2",
-  },
-  Comment = {
     italic = true,
   },
+  LineNr = {
+    fg = '#b7b7b7'
+  },
+  CursorLineNr = {
+    fg = '#B4FF39'
+  }
 }
 
 ---@type HLTable
