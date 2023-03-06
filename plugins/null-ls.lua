@@ -8,7 +8,7 @@ local b = null_ls.builtins
 
 local sources = {
    -- webdev stuff
-   b.formatting.prettier,
+   b.formatting.prettierd,
 }
 
 null_ls.setup {

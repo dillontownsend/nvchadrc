@@ -31,7 +31,7 @@ M.mason = {
     'typescript-language-server',
     'eslint-lsp',
     'emmet-ls',
-    'prettier'
+    'prettierd'
   },
 }
 
