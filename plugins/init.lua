@@ -27,14 +27,6 @@ local plugins = {
     override_options = overrides.nvimtree,
   },
 
-  -- Install a plugin
-  -- ["max397574/better-escape.nvim"] = {
-  --   event = "InsertEnter",
-  --   config = function()
-  --     require("better_escape").setup()
-  --   end,
-  -- },
-
   -- code formatting, linting etc
   ["jose-elias-alvarez/null-ls.nvim"] = {
     after = "nvim-lspconfig",
@@ -43,8 +35,16 @@ local plugins = {
     end,
   },
 
-  -- remove plugin
-  -- ["hrsh7th/cmp-path"] = false,
+  -- autotag
+  ['windwp/nvim-ts-autotag'] = {
+    config = function()
+      require'nvim-treesitter.configs'.setup {
+        autotag = {
+          enable = true,
+        }
+      }
+    end
+  }
 }
 
 return plugins
