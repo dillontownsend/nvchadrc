@@ -11,11 +11,11 @@ M.override = {
     italic = true,
   },
   LineNr = {
-    fg = '#b7b7b7'
+    fg = "#b7b7b7",
   },
   CursorLineNr = {
-    fg = '#52AD70'
-  }
+    fg = "#52AD70",
+  },
 }
 
 ---@type HLTable

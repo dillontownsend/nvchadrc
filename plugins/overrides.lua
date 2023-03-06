@@ -3,16 +3,17 @@ local M = {}
 M.treesitter = {
   ensure_installed = {
     -- lua
+    "vim",
     "lua",
 
     -- web dev
-    'prisma',
-    'json',
-    'html',
-    'css',
-    'javascript',
-    'typescript',
-    'tsx'
+    "prisma",
+    "json",
+    "html",
+    "css",
+    "javascript",
+    "typescript",
+    "tsx",
   },
 }
 
@@ -20,18 +21,19 @@ M.mason = {
   ensure_installed = {
     -- lua stuff
     "lua-language-server",
+    "stylua",
 
     -- web dev stuff
-    'prisma-language-server',
-    'json-lsp',
-    'html-lsp',
-    'css-lsp',
-    'cssmodules-language-server',
-    'tailwindcss-language-server',
-    'typescript-language-server',
-    'eslint-lsp',
-    'emmet-ls',
-    'prettierd'
+    "prisma-language-server",
+    "json-lsp",
+    "html-lsp",
+    "css-lsp",
+    "cssmodules-language-server",
+    "tailwindcss-language-server",
+    "typescript-language-server",
+    "eslint-lsp",
+    "emmet-ls",
+    "prettierd",
   },
 }
 
