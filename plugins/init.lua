@@ -4,7 +4,7 @@ local overrides = require "custom.plugins.overrides"
 local plugins = {
 
   ["goolord/alpha-nvim"] = { disable = false }, -- enables dashboard
-  ["folke/which-key.nvim"] = { disable = false },
+  ["folke/which-key.nvim"] = { disable = false }, -- command hints
 
   -- Override plugin definition options
   ["neovim/nvim-lspconfig"] = {
@@ -43,6 +43,13 @@ local plugins = {
           enable = true,
         },
       }
+    end,
+  },
+
+  -- lazygit in nvim
+  ["kdheepak/lazygit.nvim"] = {
+    config = function()
+      require "custom.plugins.lazygit"
     end,
   },
 }
