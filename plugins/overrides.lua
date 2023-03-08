@@ -14,6 +14,9 @@ M.treesitter = {
     "javascript",
     "typescript",
     "tsx",
+
+    -- c#
+    "c_sharp",
   },
 }
 
@@ -36,6 +39,11 @@ M.mason = {
     "emmet-ls",
     -- web dev formatter
     "prettierd",
+
+    -- c# lsp
+    "csharp-language-server",
+    -- c# formatter
+    "csharpier",
   },
 }
 

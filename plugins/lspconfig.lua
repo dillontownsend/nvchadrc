@@ -14,6 +14,9 @@ local servers = {
   "tsserver",
   "eslint",
   "emmet_ls",
+
+  -- c#
+  "csharp_ls",
 }
 
 for _, lsp in ipairs(servers) do

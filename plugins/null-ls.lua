@@ -12,6 +12,9 @@ local sources = {
 
   -- webdev stuff
   b.formatting.prettierd,
+
+  -- c#
+  b.formatting.csharpier,
 }
 
 null_ls.setup {
