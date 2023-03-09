@@ -1,38 +1,65 @@
 # nvchadrc
 
-install neovim
+nvchadrc is my custom neovim config that I use on top of nvchad. (these instructions are for unix)
+
+## Prerequisites
+
+install homebrew
+
 ```
-brew install nvim
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-make sure config is empty
+install neovim
+
+```
+brew install neovim
+```
+
+install ripgrep
+
+```
+brew install ripgrep (used for telescope.nvim)
+```
+
+install lazygit (used for lazygit.nvim)
+
+```
+brew install lazygit
+```
+
+## Installation
+
+run this command to ensure your config is cleared before installation
+
 ```
 rm -rf ~/.config/nvim
 rm -rf ~/.local/share/nvim
 rm -rf ~/.cache/nvim
 ```
 
-clone nvchad
+install nvchad
+
 ```
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 ```
 
-clone this repo
-```
-git@github.com:dillontownsend/nvchadrc.git
-```
+install my custom config
 
-rename to "/custom"
 ```
+cd ~/.config/nvim/lua
 mv nvchadrc custom
+nvim
 ```
 
-run PackerSync
+install plugins
+
 ```
 :PackerSync
 ```
 
-run MasonInstallAll
+install binaries
+
 ```
 :MasonInstallAll
 ```
