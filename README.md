@@ -16,10 +16,10 @@ install neovim
 brew install neovim
 ```
 
-install ripgrep
+install ripgrep (used for telescope.nvim)
 
 ```
-brew install ripgrep (used for telescope.nvim)
+brew install ripgrep
 ```
 
 install lazygit (used for lazygit.nvim)
