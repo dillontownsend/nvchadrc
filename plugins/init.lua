@@ -3,7 +3,14 @@ local overrides = require "custom.plugins.overrides"
 ---@type {[PluginName]: NvPluginConfig|false}
 local plugins = {
 
-  ["goolord/alpha-nvim"] = { disable = false }, -- enables dashboard
+  -- enables dashboard
+  ["goolord/alpha-nvim"] = {
+    disable = false,
+    config = function()
+      require "custom/plugins/alpha"
+    end,
+  },
+
   ["folke/which-key.nvim"] = { disable = false }, -- command hints
 
   -- Override plugin definition options
