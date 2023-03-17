@@ -15,6 +15,9 @@ local sources = {
 
   -- c#
   b.formatting.csharpier,
+
+  -- rust
+  b.formatting.rustfmt,
 }
 
 null_ls.setup {

@@ -17,6 +17,9 @@ M.treesitter = {
 
     -- c#
     "c_sharp",
+
+    -- rust
+    "rust",
   },
 }
 
@@ -44,6 +47,11 @@ M.mason = {
     "csharp-language-server",
     -- c# formatter
     "csharpier",
+
+    -- rust lsp
+    "rust-analyzer",
+    -- rust formatter
+    "rustfmt",
   },
 }
 

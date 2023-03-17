@@ -17,6 +17,9 @@ local servers = {
 
   -- c#
   "csharp_ls",
+
+  -- rust
+  "rust_analyzer",
 }
 
 for _, lsp in ipairs(servers) do
