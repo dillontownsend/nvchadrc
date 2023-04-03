@@ -2,9 +2,17 @@
 
 nvchadrc is my custom neovim config that I use on top of nvchad. (these instructions are for unix)
 
+## Helpful Links
+
+[Supported tree-sitter languages](https://github.com/nvim-treesitter/nvim-treesitter#supported-languages)
+
+[Supported lsp-config configs](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md)
+
+[Built-in null-ls sources](https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md)
+
 ## Prerequisites
 
-a terminal emulator that supports nerd fonts is required
+a terminal emulator that supports nerd fonts is required.
 [WezTerm is a good option](https://wezfurlong.org/wezterm/installation.html)
 
 install homebrew
