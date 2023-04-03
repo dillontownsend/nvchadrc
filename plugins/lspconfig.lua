@@ -20,6 +20,9 @@ local servers = {
 
   -- rust
   "rust_analyzer",
+
+  -- java
+  "jdtls",
 }
 
 for _, lsp in ipairs(servers) do

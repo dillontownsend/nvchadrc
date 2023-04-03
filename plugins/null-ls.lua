@@ -18,6 +18,9 @@ local sources = {
 
   -- rust
   b.formatting.rustfmt,
+
+  -- java
+  b.formatting.google_java_format,
 }
 
 null_ls.setup {

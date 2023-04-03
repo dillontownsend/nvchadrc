@@ -20,6 +20,9 @@ M.treesitter = {
 
     -- rust
     "rust",
+
+    -- java
+    "java",
   },
 }
 
@@ -52,6 +55,11 @@ M.mason = {
     "rust-analyzer",
     -- rust formatter
     "rustfmt",
+
+    -- java lsp
+    "jdtls",
+    -- java formatter
+    "google-java-format",
   },
 }
 
