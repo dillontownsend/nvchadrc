@@ -23,6 +23,9 @@ local servers = {
 
   -- java
   "jdtls",
+
+  -- go
+  "gopls",
 }
 
 for _, lsp in ipairs(servers) do

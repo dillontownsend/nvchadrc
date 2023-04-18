@@ -23,6 +23,9 @@ M.treesitter = {
 
     -- java
     "java",
+
+    -- go
+    "go",
   },
 }
 
@@ -60,6 +63,11 @@ M.mason = {
     "jdtls",
     -- java formatter
     "google-java-format",
+
+    -- go lsp
+    "gopls",
+    -- go formatter
+    "gofumpt"
   },
 }
 
